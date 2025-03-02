@@ -80,8 +80,9 @@ Want to explore your airline's profits like a pro? Our **Power BI Dashboard** tu
 1. **Export Predictions:** Model outputs are stored in `data/processed/predictions.csv`.
 2. **Load Data in Power BI:** Import CSV and generate dynamic visual reports.
 3. **Automate Updates:** Schedule refreshes for real-time insights.
+# PowerBi dashboard and Presentation
+[https://drive.google.com/drive/folders/1LLH23USCa5rqFk09jE_nWsPHMv5TnJiI?usp=sharing]
 
-![](https://your-image-link.com/dashboard.png)
 
 ---
 
