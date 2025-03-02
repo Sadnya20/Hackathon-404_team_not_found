@@ -1,64 +1,44 @@
 # ✈️ Airline Profit Prediction
 
-![Banner](https://your-image-link.com/banner.png)  
+![avi](https://github.com/user-attachments/assets/6f3a16ac-3ad3-4491-8553-0ffedbf334bf)
 
-## 🌟 Why This Project? 
-Ever wondered how airlines decide ticket prices, manage costs, and maximize profits? **This project unlocks the secrets behind airline profitability** using **cutting-edge machine learning** and **data-driven insights**! 🚀
+## 🔍 Ever wondered how airlines decide ticket prices, manage costs, and maximize profits?
+This project unlocks the secrets behind airline profitability using cutting-edge machine learning and data-driven insights! 🚀
 
 ## 🎯 Project Overview
 The **Airline Profit Prediction** system predicts airline profits based on real-world financial and operational metrics. It helps airlines make informed decisions, optimize resources, and boost revenue! 🔥
 
-📊 **Key Highlights:**
-- 🧠 **Smart Predictions:** Uses historical airline data to predict future profits.
-- 🛠️ **Data Processing & Cleaning:** Transforms messy data into meaningful insights.
-- 💡 **Feature Engineering:** Creates powerful new metrics that improve accuracy.
-- 📊 **Power BI Dashboards:** Interactive visualizations for deep analysis.
-- 🔄 **Automated Updates:** Keeps predictions fresh and accurate.
+## 📊 Key Highlights
 
-![Workflow](https://your-image-link.com/workflow.png)
+- **🧠 Smart Predictions:** Uses historical airline data to predict future profits.
+- **🛠️ Data Processing & Cleaning:** Transforms messy data into meaningful insights.
+- **💡 Feature Engineering:** Creates powerful new metrics that improve accuracy.
+- **📊 Power BI Dashboards:** Interactive visualizations for deep analysis.
+- **🔄 Automated Updates:** Keeps predictions fresh and accurate.
 
----
+## 🚀 Future Enhancements
+We plan to integrate the following:
+- **📡 API Deployment on Azure:** Enable real-time profit prediction and easy access.
+- **📊 Advanced Power BI Integration:** Enhanced visualization with real-time analytics.
+- **🔄 Continuous Model Improvement:** Uploading new datasets to improve model accuracy.
 
-## 📂 Project Structure
-```HACKATHON_404_team/
-│── notebooks/                  # Jupyter Notebooks for exploration
-│   ├── model_development.ipynb
-│
-│── src/                         # Source code for different modules
-│   │── powerbi_integration/     # Power BI integration scripts
-│   │   ├── api_endpoints.py
-│   │   ├── data_connector.py
-│   │   ├── refresh_scheduler.py
-│   │
-│   ├── data_preprocessing.py    # Data preprocessing logic
-│   ├── feature_engineering.py   # Feature selection and transformation
-│   ├── input_output.py          # Handling file input/output operations
-│   ├── model_evaluation.py      # Model performance evaluation
-│   ├── model_training.py        # Training and saving models
-│   ├── utils.py                 # Utility functions
-│
-│── worked_files/                # Data and related files
-│   ├── airline_data.csv         # Main dataset
-│   ├── aviation_EDA.ipynb       # EDA (Exploratory Data Analysis)
-│   ├── Aviation_KPIs_Dataset.xlsx
-│   ├── Aviation_KPIs_POWERBI.csv
-│   ├── Aviationdata_for_powerbi...
-│
-│── models/                      # Saved trained models (missing in your structure)
-│   ├── saved_models/
-│   │   ├── model.joblib         # Trained model file
-│
-│── config.yaml                  # Configuration file for parameters
-│── .gitignore                    # Git ignore file
-│── main.py                       # Main script to run the project
-│── README.md                     # Project documentation
-│── requirements.txt               # Required dependencies
+## 🔬 Why Random Forest Regression Over Linear Regression?
+We chose **Random Forest Regression** because:
+- It captures **non-linear relationships** in airline data.
+- It **reduces overfitting** by averaging multiple decision trees.
+- It handles **missing and categorical values** better.
 
-```
+Linear Regression assumes a linear relationship, which may not hold in complex airline data.
+
+## ⚖️ Why Standard Scaler Over MinMax Scaler?
+We used **Standard Scaler** because:
+- It ensures a **zero mean and unit variance**, making it suitable for ML models sensitive to feature scales.
+- **MinMax Scaler** can distort data when outliers are present, making it less effective.
 
 ---
 
 ## 🚀 Quick Start Guide
+
 ### Prerequisites
 ✔️ Python 3.8+  
 ✔️ Virtual Environment  
@@ -67,7 +47,7 @@ The **Airline Profit Prediction** system predicts airline profits based on real-
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/Airline-Profit-Prediction.git
+git clone https://github.com/Sadnya20/Airline-Profit-Prediction.git
 cd Airline-Profit-Prediction
 
 # Create virtual environment
@@ -81,6 +61,7 @@ pip install -r requirements.txt
 ---
 
 ## 🔥 How It Works
+
 ### Train the Model
 ```bash
 python main.py --mode train --data_path data/raw/airline_data.csv
@@ -100,21 +81,21 @@ Want to explore your airline's profits like a pro? Our **Power BI Dashboard** tu
 2. **Load Data in Power BI:** Import CSV and generate dynamic visual reports.
 3. **Automate Updates:** Schedule refreshes for real-time insights.
 
-![Power BI Dashboard](https://your-image-link.com/dashboard.png)
+![](https://your-image-link.com/dashboard.png)
 
 ---
 
-## 🚀 Future Enhancements
-✨ **Live Data Streaming:** Real-time profit tracking for airlines.  
-🔄 **Self-Learning Models:** The system retrains itself as new data arrives!  
-🛫 **Integration with Airline Systems:** Use real booking data for better predictions.  
-
----
+![collaborator](https://github.com/user-attachments/assets/28a7a88e-2cc5-4625-b09e-b5cfc498febb)
 
 ## 💡 Contributors
-- **Your Name** - [GitHub](https://github.com/your-profile)
-- Contributions welcome! 🎉
+- **Sadnya Kolhe** (Team Lead) - [GitHub](https://github.com/Sadnya20/Hackathon-404_team_not_found)
+- **Daniyal Sheikh** 
+- **Sairaj Ajgaonkar**
+- **Contributions welcome! 🎉**
 
-## 📜 License
-MIT License - See `LICENSE` file for details.
+## 💙 What We Learned
+This project taught us **collaboration**, **problem-solving**, and the **fun of predictive modeling**! 🚀
+
+
+
 
