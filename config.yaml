@@ -1,0 +1,42 @@
+# Data Configuration
+data_paths:
+  raw: 'data/raw/airline_data.csv'
+  processed: 'data/processed/processed_data.csv'
+  predictions: 'data/processed/predictions.csv'
+
+# Model Parameters
+model_params:
+  random_forest:
+    n_estimators: 100
+    max_depth: 15
+    min_samples_split: 5
+    random_state: 42
+  
+  xgboost:
+    n_estimators: 100
+    learning_rate: 0.1
+    max_depth: 7
+    random_state: 42
+
+# Training Parameters
+training:
+  test_size: 0.2
+  cv_folds: 5
+  target_column: 'Profit (USD)'
+
+# Feature Engineering
+features:
+  numerical:
+    - 'Revenue (USD)'
+    - 'Operating Cost (USD)'
+    - 'Load Factor (%)'
+    - 'Aircraft Utilization (Hours/Day)'
+  categorical:
+    - 'Aircraft Type'
+    - 'Route Type'
+
+# Paths
+paths:
+  models: 'models/saved_models'
+  metrics: 'models/model_metrics'
+  logs: 'logs'
