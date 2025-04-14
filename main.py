@@ -260,45 +260,4 @@ else:
             <li>Segment customers by price sensitivity</li>
             <li>Offer premium services at higher margins</li>
             <li>Early bird discounts to predict demand</li>
-            <li>Last-minute upgrades to capture surplus</li>
-            </ul>
-            </div>
-            
-            </div>
-            """, unsafe_allow_html=True)
-
-# ML Model Disclaimer
-st.markdown("---")
-st.subheader("ℹ️ Important Notes About This Tool")
-
-with st.container():
-    st.markdown("""
-    <div style="background-color:#FFF3E0; padding:15px; border-radius:10px; border-left: 4px solid #FFA000;">
-    <h4>📌 Machine Learning Model Disclaimer</h4>
-    <p>This prediction tool uses a Random Forest regression model trained on historical aviation data. Please note:</p>
-    <ul>
-        <li>Predictions are estimates based on patterns in past data</li>
-        <li>Actual results may vary due to external factors not captured in the model</li>
-        <li>Margin of error typically ranges ±15% for this type of analysis</li>
-        <li>Always combine these insights with expert judgment</li>
-    </ul>
-    </div>
-    """, unsafe_allow_html=True)
-
-# Add plane animation in footer
-st.markdown("""
-<style>
-.plane {
-    position: fixed;
-    bottom: 20px;
-    right: -100px;
-    font-size: 30px;
-    animation: fly 15s linear infinite;
-}
-@keyframes fly {
-    0% { right: -100px; }
-    100% { right: 100%; }
-}
-</style>
-<div class="plane">✈️</div>
-""", unsafe_allow_html=True)
+            <li>Last
