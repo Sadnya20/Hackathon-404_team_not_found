@@ -7,7 +7,6 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, r2_score
-from sklearn.feature_selection import SelectKBest, f_regression
 
 # Set page config with aviation theme
 st.set_page_config(
@@ -172,7 +171,7 @@ else:
         st.header("📊 Profitability Analysis")
         
         # Create tabs for different visualizations
-        tab1, tab2, tab3 = st.tabs(["Parameter Relationships", "Model Accuracy", "Optimization Guide"])
+        tab1, tab2 = st.tabs(["Parameter Relationships", "Model Accuracy"])
         
         with tab1:
             st.subheader("How Parameters Affect Profit")
@@ -188,13 +187,6 @@ else:
             
             plt.tight_layout()
             st.pyplot(fig)
-            
-            st.markdown("""
-            **Key Insights:**
-            - Each graph shows how one parameter relates to profitability
-            - The trend line indicates the general relationship
-            - Points represent actual historical data points
-            """)
         
         with tab2:
             st.subheader("Model Performance Metrics")
@@ -219,45 +211,3 @@ else:
             plt.title("Prediction Error Distribution")
             plt.xlabel("Error (Actual - Predicted)")
             st.pyplot(fig)
-            
-            st.markdown("""
-            **Interpretation:**
-            - The model tends to be accurate when the error is near zero (red line)
-            - A symmetric distribution around zero indicates unbiased predictions
-            - Wider spread indicates areas where predictions are less certain
-            """)
-        
-        with tab3:
-            st.subheader("Profit Optimization Strategies")
-            
-            # Create strategy cards
-            st.markdown("""
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin-top: 20px;">
-            
-            <div style="background: #E3F2FD; padding: 15px; border-radius: 10px;">
-            <h4>🛢️ Fuel Cost Strategies</h4>
-            <ul>
-            <li>Hedge 50-70% of fuel needs when prices are low</li>
-            <li>Invest in newer aircraft (15-20% more efficient)</li>
-            <li>Optimize flight paths to reduce distance</li>
-            <li>Reduce aircraft weight through design changes</li>
-            </ul>
-            </div>
-            
-            <div style="background: #E8F5E9; padding: 15px; border-radius: 10px;">
-            <h4>🧑‍🤝‍🧑 Load Factor Tactics</h4>
-            <ul>
-            <li>Dynamic pricing to fill last 10% of seats</li>
-            <li>Offer bundled services to increase value</li>
-            <li>Optimize route frequency based on demand</li>
-            <li>Partner with tourism boards for packages</li>
-            </ul>
-            </div>
-            
-            <div style="background: #FFF8E1; padding: 15px; border-radius: 10px;">
-            <h4>💰 Pricing Approaches</h4>
-            <ul>
-            <li>Segment customers by price sensitivity</li>
-            <li>Offer premium services at higher margins</li>
-            <li>Early bird discounts to predict demand</li>
-            <li>Last
