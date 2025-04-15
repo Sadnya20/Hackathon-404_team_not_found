@@ -1,7 +1,8 @@
 # ✈️ Airline Profit Prediction
 
 ![avi](https://github.com/user-attachments/assets/6f3a16ac-3ad3-4491-8553-0ffedbf334bf)
-[Check out the Aviation Profit Predictor App](https://aviationapp-8ofrzahakerhbbagmxima7.streamlit.app/)
+
+## [Check out the Aviation Profit Predictor App](https://aviationapp-8ofrzahakerhbbagmxima7.streamlit.app/)
 
 ## 🔍 Ever wondered how airlines decide ticket prices, manage costs, and maximize profits?
 This project unlocks the secrets behind airline profitability using cutting-edge machine learning and data-driven insights! 🚀
