@@ -2,7 +2,7 @@
 
 ![avi](https://github.com/user-attachments/assets/6f3a16ac-3ad3-4491-8553-0ffedbf334bf)
 
-## [Check out the Aviation Profit Predictor App](https://aviationapp-8ofrzahakerhbbagmxima7.streamlit.app/)
+## [Check out the Aviation Profit Predictor App](https://aviationprofitprediction-app-d8xfpgydfb2tm9tx2cezag.streamlit.app/)
 ![image](https://github.com/user-attachments/assets/bc57fdeb-acf4-4202-bc50-eac393617c05)
 
 
